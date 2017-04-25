@@ -1,6 +1,6 @@
 let util = require('util');
-let Shape = require('./shapesarea.js');
-var Triangle = require('./triangle.js');
+let Shape = require('@ednagc/ull-shape-ednagc');
+var Triangle = require('@ednagc/ull-shape-triangle-ednagc');
 var Square = require('./square.js');
 var Rectangle = require('./rectangle.js');
 var readline = require('readline');
@@ -28,11 +28,11 @@ try {
   sq = new Shape({ width: 100}, 'Square');
   s = sq.getArea();
   console.log(s);
-  
+
   let re = new Rectangle({ width: 100, height: 10});
   s = re.getArea();
   console.log(s);
-  
+
   re = new Shape({ width: 100, height: 10}, 'Rectangle');
   s = re.getArea();
   console.log(s);

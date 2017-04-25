@@ -1,4 +1,5 @@
-let Shape = require('./shapesarea.js');
+let Shape = require('@ednagc/ull-shape-ednagc');
+
 class Rectangle extends Shape {
     constructor(options) {
       super(options)

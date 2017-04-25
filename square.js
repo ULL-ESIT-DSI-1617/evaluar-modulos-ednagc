@@ -1,11 +1,12 @@
-let Shape = require('./shapesarea.js');
+let Shape = require('@ednagc/ull-shape-ednagc');
+
 class Square extends Shape {
     constructor(options) {
       super(options)
     }
     area() {
-      return  Math.pow(this.width,2) 
+      return  Math.pow(this.width,2)
     }
 }
-Shape.Shapes.Square = Square; 
+Shape.Shapes.Square = Square;
 module.exports = Square;
