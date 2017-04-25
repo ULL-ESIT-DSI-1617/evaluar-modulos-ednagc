@@ -1,7 +1,7 @@
-var Shape = require('../shapesarea.js');
-var Triangle = require('../triangle.js');
-var Square = require('../square.js');
-var Rectangle = require('../rectangle.js');
+var Shape = require('@ednagc/ull-shape-ednagc');
+var Triangle = require('@ednagc/ull-shape-triangle-ednagc');
+var Square = require('@ednagc/ull-shape-square-ednagc');
+var Rectangle = require('@ednagc/ull-shape-rectangle-ednagc');
 
 describe("getArea", function() {
   it("must compute the triangle area correctly. Shape object", function() {
