@@ -21,6 +21,8 @@
   "homepage": "",
   "dependencies": {
     "@ednagc/ull-shape-ednagc": "^1.0.3",
+    "@ednagc/ull-shape-rectangle-ednagc": "^1.0.1",
+    "@ednagc/ull-shape-square-ednagc": "^1.0.1",
     "@ednagc/ull-shape-triangle-ednagc": "^1.0.1",
     "gulp-shell": "^0.6.3",
     "mocha": "^2.3.3",
