@@ -6,6 +6,15 @@ var Rectangle = require('@ednagc/ull-shape-rectangle-ednagc');
 var readline = require('readline');
 
 try {
+  /**
+    Index.js donde hacemos uso de los paquetes npm que se han creado
+    para carlular el area de una de las figuras:
+    @ednagc/ull-shape-ednagc
+    @ednagc/ull-shape-triangle-ednagc
+    @ednagc/ull-shape-square-ednagc
+    @ednagc/ull-shape-rectangle-ednagc
+  */
+
   let arg = process.argv[2] || '{"width":9, "height":5}';
   let obj = JSON.parse(arg);
   let type = process.argv[3] || 'Rectangle';
