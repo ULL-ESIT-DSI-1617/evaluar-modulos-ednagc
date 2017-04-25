@@ -1,8 +1,8 @@
 let util = require('util');
 let Shape = require('@ednagc/ull-shape-ednagc');
 var Triangle = require('@ednagc/ull-shape-triangle-ednagc');
-var Square = require('./square.js');
-var Rectangle = require('./rectangle.js');
+var Square = require('@ednagc/ull-shape-square-ednagc');
+var Rectangle = require('@ednagc/ull-shape-rectangle-ednagc');
 var readline = require('readline');
 
 try {
