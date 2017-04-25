@@ -1,7 +1,6 @@
 {
   "name": "switchsmell",
   "version": "1.0.0",
-  "bin": { "get-area" : "./bin/get-area.js" },
   "description": "ejemplos de switch smell.",
   "scripts": {
     "doc": "documentation build index.js -f html -o docs",
@@ -26,6 +25,7 @@
     "@ednagc/ull-shape-rectangle-ednagc": "^1.0.1",
     "@ednagc/ull-shape-square-ednagc": "^1.0.1",
     "@ednagc/ull-shape-triangle-ednagc": "^1.0.1",
+    "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
     "mocha": "^2.3.3",
     "should": "^7.1.1"
